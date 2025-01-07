@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-Commerce Website</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+rel="stylesheet">
+<!--Link to CSS-->
+<link rel="stylesheet" href="style.css">
+<!--Link JavaScript-->
+<script src="script.js"></script>
+<a href="register.html" class="btn btn-primary">Register Now</a>
+</head>
+<body>
+<!-- Navigation Bar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="container-fluid">
+<a class="navbar-brand" href="#">NATZ BOUTIQUE</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs
+target="#navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+    <div class="container my-4">
+        <div class="input-group">
+            <input type="text" id="searchBar" class="form-control" placeholder="Search products..." aria-label="Search">
+            <button class="btn btn-primary" type="button">Search</button>
+        </div>
+    </div>
+<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+<li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+<li class="nav-item"><a class="nav-link" href="admin.html">Admin</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<!-- Homepage Banner-->
+<header class="bg-primary text-white text-center py-5">
+<h1>Welcome to Natz Boutique</h1>
+<p>Your one-stop shop for all your fashions</p>
+</header>
+<!-- Product Grid-->
+<section id="products" class="container my-5">
+<h2 class="text-center mb-4">Our Products</h2>
+<div class="row g-4">
+<!-- Product Card-->
+<div class="row">
+    <div class="col-sm-3">
+      <div class="card">
+        <div class="card-body">
+            <img src="suit1.jpg" class="card-img-top" alt="Product 1">
+          <h5 class="card-title">Suit</h5>
+          <p class="card-text">UGX 85,000</p>
+          <button class="btn btn-primary add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card">
+        <div class="card-body">
+            <img src="beauty1.jpg" class="card-img-top" alt="Product 1">
+          <h5 class="card-title">Women dress</h5>
+          <p class="card-text">UGX 45,000</p>
+          <button class="btn btn-primary add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <img src="boxer2.jpg" class="card-img-top" alt="Product 1">
+            <h5 class="card-title">Boxer</h5>
+            <p class="card-text">UGX 15,000</p>
+            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <img src="fashion1.jpg" class="card-img-top" alt="Product 1">
+        <h5 class="card-title">shoe</h5>
+        <p class="card-text">UGX 65,000</p>
+        <button class="btn btn-primary add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <img src="fashion2.jpg" class="card-img-top" alt="Product 1">
+        <h5 class="card-title">Shoe</h5>
+        <p class="card-text">UGX 65,000</p>
+        <button class="btn btn-primary add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+      <div class="card">
+        <div class="card-body">
+            <img src="jean1.jpg" class="card-img-top" alt="Product 1">
+          <h5 class="card-title">Jean</h5>
+          <p class="card-text">UGX 55,000</p>
+          <button class="btn btn-primary add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+</div>
+<div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <img src="jean2.jpg" class="card-img-top" alt="Product 1">
+        <h5 class="card-title">Jean</h5>
+        <p class="card-text">UGX 55,000</p>
+        <button class="btn btn-primary add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+      <div class="card">
+        <div class="card-body">
+            <img src="jean3.jpg" class="card-img-top" alt="Product 1">
+          <h5 class="card-title">Jean</h5>
+          <p class="card-text">UGX 55,000</p>
+          <button class="btn btn-primary add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+</div>
+<div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <img src="longsleeve.jpg" class="card-img-top" alt="Product 1">
+        <h5 class="card-title">Shirt</h5>
+        <p class="card-text">UGX 35,000</p>
+        <button class="btn btn-primary add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+</div>
+<div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <img src="lovejac.jpg" class="card-img-top" alt="Product 1">
+        <h5 class="card-title">Jean</h5>
+        <p class="card-text">UGX 50,000</p>
+        <button class="btn btn-primary add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+</div>
+<div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <img src="nenvist.jpg" class="card-img-top" alt="Product 1">
+        <h5 class="card-title">Vest</h5>
+        <p class="card-text">UGX 25,000</p>
+        <button class="btn btn-primary add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+</div>
+<div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <img src="short1.jpg" class="card-img-top" alt="Product 1">
+        <h5 class="card-title">Short</h5>
+        <p class="card-text">UGX 25,000</p>
+        <button class="btn btn-primary add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+</div>
+<div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <img src="short2.jpg" class="card-img-top" alt="Product 1">
+        <h5 class="card-title">Short</h5>
+        <p class="card-text">UGX 25,000</p>
+        <button class="btn btn-primary add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+</div>
+<div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <img src="shortsleeve.jpg" class="card-img-top" alt="Product 1">
+        <h5 class="card-title">Shirt</h5>
+        <p class="card-text">UGX 35,000</p>
+        <button class="btn btn-primary add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+</div>
+<div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <img src="T-shirt2.jpg" class="card-img-top" alt="Product 1">
+        <h5 class="card-title">T-shirt</h5>
+        <p class="card-text">UGX 30,000</p>
+        <button class="btn btn-primary add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+</div>
+<div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <img src="vist.jpg" class="card-img-top" alt="Product 1">
+        <h5 class="card-title">Vest</h5>
+        <p class="card-text">UGX 25,000</p>
+        <button class="btn btn-primary add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+</div>
+<div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <img src="vest.jpg" class="card-img-top" alt="Product 1">
+        <h5 class="card-title">Vest</h5>
+        <p class="card-text">UGX 25,000</p>
+        <button class="btn btn-primary add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+</div>
+    <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <img src="tshort.jpg" class="card-img-top" alt="Product 1">
+            <h5 class="card-title">T-shirt</h5>
+            <p class="card-text">UGX 30,000</p>
+            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <img src="fashion3.jpg" class="card-img-top" alt="Product 1">
+            <h5 class="card-title">Shoe</h5>
+            <p class="card-text">UGX 75,000</p>
+            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <img src="addis.jpg" class="card-img-top" alt="Product 1">
+            <h5 class="card-title">Shoe</h5>
+            <p class="card-text">UGX 55,000</p>
+            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+    </div>
+    
+<!-- Add similar cards for more products-->
+</div>
+</section>
+<!-- Footer-->
+<footer class="bg-dark text-white text-center py-3">
+<p>&copy; 2025 Natz Boutique. All rights reserved.</p>
+<p>Address: P.O. Box 25 Main-Market, Adjumani, Uganda | Contact: +256759747006, +256788980631 | Email: <a href="mailto:natz@gmail.com">natz@gmail.com</a></p>
+</div>
+</footer>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
